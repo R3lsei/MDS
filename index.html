@@ -1696,11 +1696,17 @@
     }
 
     @media (max-width: 768px) {
-      .nav-links {
-        display: none;
+      nav {
+        padding: 0 24px;
       }
       .mobile-menu-toggle {
         display: flex;
+      }
+      .mobile-menu-toggle.active span {
+        background: #FFFFFF;
+      }
+      .nav-links {
+        display: none;
       }
       .footer-inner {
         grid-template-columns: 1fr;
@@ -1788,6 +1794,13 @@
       .portal-poster-frame {
         max-width: 210px;
       }
+      .school-card-img-wrap {
+        height: 200px;
+        min-height: 200px;
+      }
+      .school-card-body {
+        padding: 24px;
+      }
       .school-logo-wrap {
         width: 100px;
         height: 100px;
@@ -1804,8 +1817,14 @@
       .school-card-title {
         font-size: 24px;
       }
+      .jpo-promo-card {
+        padding: 24px;
+      }
       .jpo-promo-title {
         font-size: 26px;
+      }
+      .contact-form-wrap {
+        padding: 24px;
       }
     }
   </style>
